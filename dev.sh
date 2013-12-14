@@ -14,24 +14,24 @@
 echo "WARNING: DEV INSTALLER"
 
 # RESPOSITORY ------------------------------------------------------------
-REMOTE=https://raw.github.com/altercation/archblocks/dev
+REMOTE=https://raw.github.com/danidoni/archblocks/master
 
 # CONFIG -----------------------------------------------------------------
-HOSTNAME=tau
-USERNAME=es
+HOSTNAME=tatil
+USERNAME=dani
 USERSHELL=/bin/bash
 FONT=Lat2-Terminus16
 FONT_MAP=8859-1_to_uni
 LANGUAGE=en_US.UTF-8
-KEYMAP=us
-TIMEZONE=US/Pacific
-MODULES="dm_mod dm_crypt aes_x86_64 ext2 ext4 vfat intel_agp drm i915"
+KEYMAP=es
+TIMEZONE=Europe/Madrid
+MODULES="dm_mod dm_crypt aes_x86_64 ext2 ext4 vfat drm"
 #HOOKS="base udev autodetect pata scsi sata usb usbinput consolefont encrypt filesystems fsck shutdown"
 # possible fix for occasional blank screen on resume? https://wiki.archlinux.org/index.php/Pm-utils#Blank_screen_issue
 HOOKS="base udev autodetect pata scsi sata usb usbinput consolefont encrypt filesystems fsck shutdown"
 
 
-INSTALL_DRIVE=query # "/dev/sda" "query" or blank (blank is the same as "query")
+INSTALL_DRIVE=/dev/sda # "/dev/sda" "query" or blank (blank is the same as "query")
 
 # BLOCKS -----------------------------------------------------------------
 TIME=common/time_chrony_utc
