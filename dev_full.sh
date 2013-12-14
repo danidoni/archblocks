@@ -16,15 +16,15 @@ REMOTE=https://raw.github.com/altercation/archblocks/dev
 
 # CONFIG -----------------------------------------------------------------
 
-HOSTNAME=tau
-USERNAME=es
+HOSTNAME=tatil
+USERNAME=dani
 USERSHELL=/bin/bash
 FONT=Lat2-Terminus16
 FONT_MAP=8859-1_to_uni
 LANGUAGE=en_US.UTF-8
-KEYMAP=us
-TIMEZONE=US/Pacific
-MODULES="dm_mod dm_crypt aes_x86_64 ext2 ext4 vfat intel_agp drm i915"
+KEYMAP=es
+TIMEZONE=Europe/Madrid
+MODULES="dm_mod dm_crypt aes_x86_64 ext2 ext4 vfat intel_agp drm"
 HOOKS="base udev autodetect pata scsi sata usb usbinput consolefont encrypt filesystems fsck shutdown"
 # KERNEL_PARAMS is used in FILESYSTEM, INIT, BOOTLOADER blocks (gets added to)
 # No longer require these i915 tweaks
