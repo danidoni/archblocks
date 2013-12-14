@@ -12,7 +12,7 @@
 # bash install.sh
 
 # RESPOSITORY ------------------------------------------------------------
-REMOTE=https://raw.github.com/danidoni/archblocks/dev_full
+REMOTE=https://raw.github.com/danidoni/archblocks/master
 
 # CONFIG -----------------------------------------------------------------
 
